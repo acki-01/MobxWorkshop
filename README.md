@@ -1,3 +1,3 @@
 # MobxWorkshop
 
-App created during MobX's workshop during DevMeeting
+App created during MobX workshop during DevMeeting
