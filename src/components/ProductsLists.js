@@ -5,7 +5,7 @@ import ProductsList from './ProductsList';
 
 @inject('productStore', 'basketStore')
 @observer
-class ProductList extends Component {
+class ProductsLists extends Component {
   componentDidMount() {
     this.props.productStore.getData();
   }
@@ -51,4 +51,4 @@ class ProductList extends Component {
     );
   }
 }
-export default ProductList;
+export default ProductsLists;
